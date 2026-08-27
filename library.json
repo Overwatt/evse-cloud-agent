@@ -1,0 +1,17 @@
+{
+  "name": "evse-cloud-agent",
+  "version": "0.1.0",
+  "description": "Device side of the EVSE cloud relay protocol: consolidated retained status documents, presence, device-side session records and acknowledged commands over MQTT. Platform free C++ — the firmware supplies transport, clock and EVSE state through one host interface.",
+  "keywords": "evse, ev, charger, mqtt, iot, protocol, openevse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Overwatt/evse-cloud-agent.git"
+  },
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "evse_cloud_agent_core.h",
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^6.20.1"
+  }
+}
